@@ -1,0 +1,30 @@
+* {
+  /* box-sizing: border-box;
+    border: 1px solid black; */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+span {
+  text-align: center;
+  margin-top: 10px;
+}
+
+li {
+  flex: 1;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 2%;
+  border: 1px solid darkgray;
+}
