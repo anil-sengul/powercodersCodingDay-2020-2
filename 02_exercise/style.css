@@ -74,7 +74,8 @@ aside {
 }
 
 footer {
-  height: 10vh;
+  background-color: black;
+  color: white;
 }
 
 @media (max-width: 800px) {
@@ -97,7 +98,8 @@ footer {
   }
 }
 
-ul {
+nav ul,
+footer ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -105,7 +107,8 @@ ul {
   height: 100%;
 }
 
-li {
+nav li,
+footer li {
   margin: 10px;
   padding: 0;
 }
@@ -113,4 +116,11 @@ li {
 hr {
   margin: 0;
   padding: 0;
+}
+
+footer ul,
+footer li {
+  text-align: right;
+  margin-top: 15px;
+  margin-right: 20px;
 }
